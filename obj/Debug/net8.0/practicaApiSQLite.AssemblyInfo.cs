@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("practicaApiSQLite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b978a2fb3a217d9515b81a169c19a1c4c2c21e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d92277fe2688797e0ed4e6bbf9a0aeac6ce1e8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("practicaApiSQLite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("practicaApiSQLite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
