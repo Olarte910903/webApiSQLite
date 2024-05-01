@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Conexión bd
-builder.Services.AddDbContext<InventarioContext>(options=>options.UseSqlite("InventarioConnection"));
+builder.Services.AddDbContext<InventarioContext>(options=>options.UseSqlite(builder.Configuration.GetConnectionString("InventarioConnection")));
 
 var app = builder.Build();
 
