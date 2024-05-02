@@ -10,6 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//implementación de cuenta
+builder.Services.AddScoped<ICuentaService, CuentaService>();
+
 //Conexión bd
 builder.Services.AddDbContext<InventarioContext>(options=>options.UseSqlite(builder.Configuration.GetConnectionString("InventarioConnection")));
 
